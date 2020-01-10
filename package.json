@@ -1,0 +1,25 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "All about npm",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify js/main.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArseniyX/npm-project.git"
+  },
+  "author": "Arseniy Klibaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArseniyX/npm-project/issues"
+  },
+  "homepage": "https://github.com/ArseniyX/npm-project#readme"
+}
